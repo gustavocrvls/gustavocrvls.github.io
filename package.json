@@ -12,6 +12,7 @@
     "deploy": "push-dir --dir=dist --branch=gh-pages --cleanup"
   },
   "dependencies": {
+    "@primer/octicons": "^10.1.0",
     "vue": "^2.5.2",
     "vue-router": "^3.0.1"
   },

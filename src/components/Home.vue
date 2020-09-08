@@ -1,19 +1,33 @@
 <template>
   <div class="hello">
+    <h2>
+      Gustavo's Skills
+    </h2>
     <img src="https://media4.giphy.com/media/E6jscXfv3AkWQ/giphy.gif?cid=ecf05e47afzlq393ik7xypxby55wqdff3cl8c51qqah65r2g&rid=giphy.gif" alt="" srcset="">
     <div>
-      Estamos em construção, volte mais tarde!
+      <p>
+        Estamos em construção, volte mais tarde!
+      </p>
+      <p>
+        Enquanto isso, entre acesse meu <a href="https://github.com/gustavocrvls">GitHub</a> {{mark_github}}
+      </p>
     </div>
   </div>
 </template>
 
 <script>
+const octicons = require('@primer/octicons');
+
 export default {
-  name: 'HelloWorld',
+  name: 'Home',
   data() {
     return {
-      msg: 'Welcome to Your Vue.js App',
+      msg: 'Where the things happens!',
+      mark_github: null,
     };
+  },
+  created() {
+    this.mark_github = octicons.markGithub;
   },
 };
 </script>
@@ -21,6 +35,7 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 h1, h2 {
+  /* color: #73d0ff; */
   font-weight: normal;
 }
 ul {
@@ -32,6 +47,10 @@ li {
   margin: 0 10px;
 }
 a {
-  color: #42b983;
+  color: #f4cd7c;
 }
+img {
+  border-radius: 8px;
+}
+
 </style>
