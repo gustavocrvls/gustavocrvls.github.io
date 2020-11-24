@@ -6,10 +6,7 @@
     <img src="https://media4.giphy.com/media/E6jscXfv3AkWQ/giphy.gif?cid=ecf05e47afzlq393ik7xypxby55wqdff3cl8c51qqah65r2g&rid=giphy.gif" alt="" srcset="">
     <div>
       <p>
-        Estamos em construção, volte mais tarde!
-      </p>
-      <p>
-        Enquanto isso, entre acesse meu <a href="https://github.com/gustavocrvls">GitHub</a> {{mark_github}}
+        Ainda não há muito pra ver aqui, enquanto isso acesse meu <a href="https://github.com/gustavocrvls">GitHub</a>. {{mark_github}}
       </p>
     </div>
   </div>
