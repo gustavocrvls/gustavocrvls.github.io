@@ -132,13 +132,20 @@ a {
   margin-bottom: 1rem;
 }
 .presentation  h1 {
-  font-size: 3rem;
+  font-size: 4.5rem;
+}
+
+@media(max-width: 720px) {
+  .presentation  h1 {
+    font-size: 2rem;
+  }
 }
 
 .avatar {
   border-radius: 50%;
   width: 6rem;
   width: 6rem;
+  filter: saturate(0);
 }
 
 section {
