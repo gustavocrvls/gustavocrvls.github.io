@@ -17,13 +17,35 @@ export default {
   font-family: 'Kufam', cursive;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  /* color: #2c3e50; */
-  margin-top: 60px;
+  margin: auto;
+  max-width: 980px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@media(max-width: 1080px) {
+  html {
+    font-size: 93.75%;
+  }
+}
+
+@media(max-width: 720px) {
+  html {
+    font-size: 87.5%;
+  }
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
 }
 
 body {
-  background-color: #1f2430;
-  color: #c7c8c2;
+  background-color: #252525;
+  color: #f1f2f3;
 }
 </style>
